@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 404,
+      "statusText": "This is an AWS Serverless LocalStack project. Deployment to Vercel is not required."
+    }
+  ]
+}
