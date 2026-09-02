@@ -17,6 +17,7 @@ jobs:
           - 4566:4566
           - 4510-4559:4510-4559
         env:
+          ACTIVATE_PRO: 0
           SERVICES: lambda,dynamodb,s3,cloudwatch,logs
           AWS_DEFAULT_REGION: us-east-1
 
