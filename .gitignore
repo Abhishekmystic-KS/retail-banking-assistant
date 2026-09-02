@@ -1,0 +1,13 @@
+# LocalStack storage
+localstack-data/
+
+# Python / Lambda build artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+node_modules/
+
+# Environment files
+.env.local
